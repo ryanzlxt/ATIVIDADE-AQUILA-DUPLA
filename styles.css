@@ -22,13 +22,17 @@ body {
 
     width: 350px;
 
-    padding: 30px;
+    padding: 40px 30px;
 
     border-radius: 20px;
 
     text-align: center;
 
-    background: #1f1f1f;
+
+    /* cor padrao cinza */
+    /* background: #1f1f1f; */
+
+    background: linear-gradient(135deg, #fff, #0072ff);
 
     color: white;
 
@@ -68,7 +72,13 @@ body {
 }
 
 .card1 {
-    background-color: #5f0000;
+
+        /* cor padrao vinho/vermelho, sla q cor é essa */
+    /* background-color: #5f0000; */
+
+     background: linear-gradient(to bottom right, #ff0000, #777777);
+
+
     color: #ffffff;
     width: 350px;
     padding: 40px 30px;
@@ -172,9 +182,9 @@ body {
 
 
 
-#btn-habilidades {
+#btn-habilidades, #btn-sobre, #btn-contato {
 
-    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    background: linear-gradient(135deg, #000, #0072ff);
 
 }
 
@@ -350,20 +360,20 @@ button1:hover {
 ========================= */
 
 /* Fundo */
-body.light{
+body.light {
     background: #333;
 }
 
 /* =========================
    CARDS
 ========================= */
-body.light .card{
-    background : linear-gradient(to bottom right, #00000083 45%, #0072ff);
+body.light .card {
+    background: linear-gradient(to bottom right, #00000083 45%, #0072ff);
     color: #ffffff;
 }
 
-body.light .card1{
-    background:linear-gradient(to bottom right , #e90404, #00000083 55%);
+body.light .card1 {
+    background: linear-gradient(to bottom right, #e90404, #00000083 55%);
     color: #000000;
 }
 
@@ -371,33 +381,33 @@ body.light .card1{
    TEXTOS INTERNOS
 ========================= */
 .card h1,
-.card .description{
+.card .description {
     color: inherit;
 }
 
 .card1 h1,
 .card1 .description1,
-.card1 .subtitle-H{
+.card1 .subtitle-H {
     color: inherit;
 }
 
 /* =========================
    SKILLS
 ========================= */
-body.light .skill-tag{
+body.light .skill-tag {
     background: #e0e0e0;
     color: #000000;
     border-color: #cfcfcf;
 }
 
-body.light .skill-tag1{
+body.light .skill-tag1 {
     background: #e0e0e0;
     color: #000000;
     border-color: #cfcfcf;
 }
 
 
-.btn-row{
+.btn-row {
     display: flex;
     flex-direction: column;
     gap: 10px;
